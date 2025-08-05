@@ -1,0 +1,60 @@
+{
+  "profile": {
+    "name": "TRAN PHU QUOC",
+    "title": "Senior Frontend Developer",
+    "email": "tranphuquocit@gmail.com",
+    "phone": "0559241292",
+    "location": "Ho Chi Minh City"
+  },
+  "skills": [
+    { "name": "Angular", "level": 95 },
+    { "name": "Vue.js", "level": 80 },
+    { "name": "Node.js", "level": 75 },
+    { "name": "React.js", "level": 70 },
+    { "name": "TypeScript", "level": 90 }
+  ],
+  "experience": [
+    {
+      "company": "VELA INTEGRATED LOGISTICS CORPORATION",
+      "role": "Frontend Developer",
+      "time": "06/2024 - Hiện tại",
+      "details": [
+        "Phát triển các tính năng mới cho dự án PO bằng Angular 9+.",
+        "Xác định và sửa lỗi để đảm bảo chức năng tối ưu.",
+        "Phân tích và tối ưu hóa code để cải thiện hiệu suất."
+      ]
+    },
+    {
+      "company": "TECHCOMBANK SECURITIES (TCBS)",
+      "role": "Senior Software",
+      "time": "03/2021 - 09/2023",
+      "details": [
+        "Tham gia thiết kế và phát triển ứng dụng web/mobile sử dụng Angular 9+, Ionic, Firebase.",
+        "Tạo các tính năng mới cho quản lý quỹ, TcCorp.",
+        "Hỗ trợ trưởng nhóm quản lý các nhóm nhỏ (5-6 thành viên)."
+      ]
+    }
+  ],
+  "chatbot_scripts": [
+    {
+      "keywords": ["hello", "chào", "hi", "xin chào"],
+      "answer": "Chào mừng nhà tuyển dụng! Tôi là trợ lý AI của Quốc. Bạn muốn tìm hiểu thông tin gì? (ví dụ: 'kỹ năng', 'kinh nghiệm', 'liên hệ')"
+    },
+    {
+      "keywords": ["skill", "kỹ năng"],
+      "answer": "Quốc có kinh nghiệm chuyên sâu với Angular & TypeScript. Các kỹ năng khác bao gồm Vue.js, Node.js, và React.js. Bạn có muốn xem chi tiết hơn không?"
+    },
+    {
+      "keywords": ["experience", "kinh nghiệm"],
+      "answer": "Quốc có hơn 7 năm kinh nghiệm làm việc, từng giữ các vị trí quan trọng tại Techcombank Securities và hiện tại là VELA. Để xem chi tiết, hãy gõ lệnh 'show --experience'."
+    },
+    {
+      "keywords": ["contact", "liên hệ", "email", "phone", "sdt", "số điện thoại"],
+      "answer": "Bạn có thể liên hệ với Quốc qua Email: tranphuquocit@gmail.com hoặc SĐT: 0559241292."
+    },
+    {
+      "keywords": [],
+      "answer": "Xin lỗi, tôi chưa được lập trình để hiểu câu hỏi này. Bạn có thể thử các từ khóa như 'kỹ năng', 'kinh nghiệm' để tôi có thể hỗ trợ tốt hơn."
+    }
+  ]
+}
