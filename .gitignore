@@ -1,0 +1,12 @@
+# Bỏ qua thư mục chứa các gói phụ thuộc
+/node_modules
+
+# Bỏ qua các biến môi trường
+.env
+
+# Bỏ qua các thư mục build
+/build
+/dist
+
+# Bỏ qua các file log
+*.log
