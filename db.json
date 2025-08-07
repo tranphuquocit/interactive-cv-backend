@@ -3,58 +3,151 @@
     "name": "TRAN PHU QUOC",
     "title": "Senior Frontend Developer",
     "email": "tranphuquocit@gmail.com",
+    "website": "https://my-interactive-cv.web.app",
     "phone": "0559241292",
-    "location": "Ho Chi Minh City"
+    "dob": "24/12/1992",
+    "location": "Ho Chi Minh City",
+    "summary": "Tôi muốn tìm một môi trường mới tại Hà Nội / Hồ Chí Minh để bắt đầu lại. Tôi muốn học hỏi kiến thức mới từ các dự án (tự học để cải thiện bản thân). Tôi đặt mục tiêu phát triển thế mạnh của mình và thăng tiến lên các vị trí cao hơn như Leader, Architect, Consultant, v.v."
   },
   "skills": [
-    { "name": "Angular", "level": 95 },
-    { "name": "Vue.js", "level": 80 },
-    { "name": "Node.js", "level": 75 },
-    { "name": "React.js", "level": 70 },
-    { "name": "TypeScript", "level": 90 }
+    {
+      "name": "Angular",
+      "level": 95,
+      "description": "7 năm kinh nghiệm thực tế, chuyên sâu về cấu trúc, component, và các tính năng nâng cao."
+    },
+    {
+      "name": "Vue.js",
+      "level": 60,
+      "description": "Kinh nghiệm từ các dự án freelancer, tự học và áp dụng để hoàn thành sản phẩm."
+    },
+    {
+      "name": "Node.js",
+      "level": 75,
+      "description": "Kinh nghiệm qua 2 dự án sử dụng TypeORM, củng cố kiến thức cơ bản để hỗ trợ công việc."
+    },
+    {
+      "name": "React.js",
+      "level": 40,
+      "description": "Hiểu biết cơ bản, có thể tạo và quản lý giao diện người dùng động bằng components và hooks."
+    },
+    {
+      "name": "Ionic",
+      "level": 85,
+      "description": "Phát triển ứng dụng web và mobile đa nền tảng, tích hợp sâu với Angular."
+    },
+    {
+      "name": "Firebase",
+      "level": 80,
+      "description": "Sử dụng cho các dự án web/mobile, bao gồm cả tính năng real-time chat."
+    },
+    {
+      "name": "HTML/CSS/JS",
+      "level": 90,
+      "description": "Nền tảng vững chắc về cấu trúc HTML, styling CSS, và tương tác JavaScript."
+    }
   ],
   "experience": [
     {
-      "company": "VELA INTEGRATED LOGISTICS CORPORATION",
+      "company": "VELA INTEGRATED LOGISTICS CORPORATION (HO CHI MINH)",
       "role": "Frontend Developer",
       "time": "06/2024 - Hiện tại",
       "details": [
-        "Phát triển các tính năng mới cho dự án PO bằng Angular 9+.",
-        "Xác định và sửa lỗi để đảm bảo chức năng tối ưu.",
-        "Phân tích và tối ưu hóa code để cải thiện hiệu suất."
+        "Phát triển dự án PO: Sử dụng Angular 9+ để tạo và triển khai các tính năng mới cho dự án.",
+        "Sửa lỗi (Bug Fixing): Xác định và giải quyết các vấn đề trong ứng dụng để đảm bảo hoạt động tối ưu.",
+        "Tối ưu hóa code (Code Optimization): Phân tích và cải thiện code hiện có để tăng hiệu suất và hiệu quả."
       ]
     },
     {
-      "company": "TECHCOMBANK SECURITIES (TCBS)",
+      "company": "TECHCOMBANK SECURITIES (HA NOI)",
       "role": "Senior Software",
       "time": "03/2021 - 09/2023",
       "details": [
-        "Tham gia thiết kế và phát triển ứng dụng web/mobile sử dụng Angular 9+, Ionic, Firebase.",
-        "Tạo các tính năng mới cho quản lý quỹ, TcCorp.",
-        "Hỗ trợ trưởng nhóm quản lý các nhóm nhỏ (5-6 thành viên)."
+        "Phát triển các dự án sử dụng Angular 9+, Ionic, Firebase, tham gia vào thiết kế và phát triển ứng dụng web/mobile.",
+        "Tạo các tính năng mới cho Fund Management, TcCorp, bao gồm quản lý danh mục và báo cáo tài chính.",
+        "Phát triển và tối ưu hóa các tính năng trên TCINVEST dựa trên phản hồi của người dùng.",
+        "Hỗ trợ trưởng nhóm quản lý các nhóm nhỏ (5-6 thành viên) trong đội ngũ Frontend 23 người, phân công nhiệm vụ và theo dõi tiến độ."
+      ]
+    },
+    {
+      "company": "ICHECK SCANNER (HA NOI)",
+      "role": "Leader Frontend",
+      "time": "03/2020 - 03/2021",
+      "details": [
+        "Dẫn dắt đội ngũ frontend gồm 4 thành viên, đảm bảo sự hợp tác hiệu quả và phát triển kỹ năng.",
+        "Phát triển các dự án của khách hàng sử dụng Angular 8+, tối ưu hóa hiệu suất và trải nghiệm người dùng.",
+        "Phát triển ứng dụng web bằng Ionic, tích hợp các tính năng cần thiết.",
+        "Tạo một npm package độc lập để quét mã QR, dễ dàng tích hợp vào các trang web khác nhau."
+      ]
+    },
+    {
+      "company": "TMA SOLUTION (HCM)",
+      "role": "Consultant",
+      "time": "04/2019 - 03/2020",
+      "details": [
+        "Nghiên cứu và nâng cấp phiên bản dự án từ AngularJS lên Angular 8.",
+        "Đào tạo các thành viên cũ trong nhóm về công nghệ nâng cấp (Angular).",
+        "Hỗ trợ sửa lỗi trong dự án sử dụng AngularJS.",
+        "Phân tích dự án và đề xuất các giải pháp khả thi để nâng cao chất lượng và tiến độ."
+      ]
+    },
+    {
+      "company": "MONSTER PIXEL (HCM)",
+      "role": "Senior Full Stack Development",
+      "time": "10/2017 - 04/2019",
+      "details": [
+        "Tạo các tính năng/component theo yêu cầu của khách hàng.",
+        "Xây dựng cấu trúc mã nguồn và review code của nhóm.",
+        "Phát triển dự án của khách hàng bằng Angular 6+, ngRx, Node.js (TypeORM).",
+        "Tích hợp MongoDB làm cơ sở dữ liệu.",
+        "Tích hợp API giữa frontend và backend."
+      ]
+    },
+    {
+      "company": "VNNG INFORMATION TECHNOLOGIES (HCM)",
+      "role": "Software Engineer",
+      "time": "01/2016 - 10/2017",
+      "details": [
+        "Phát triển API bằng Node.js cho Backend.",
+        "Xây dựng cấu trúc mã nguồn cho front-end.",
+        "Phát triển sản phẩm công ty (web app) bằng AngularJS, Angular 2, ngRedux, JQuery.",
+        "Xây dựng các server phụ trợ: Image Hosting, Domain Controller, Mail Exchange, GitLab, VPN."
       ]
     }
   ],
-  "chatbot_scripts": [
+  "education": [
     {
-      "keywords": ["hello", "chào", "hi", "xin chào"],
-      "answer": "Chào mừng nhà tuyển dụng! Tôi là trợ lý AI của Quốc. Bạn muốn tìm hiểu thông tin gì? (ví dụ: 'kỹ năng', 'kinh nghiệm', 'liên hệ')"
+      "school": "HCMC UNIVERSITY OF TECHNOLOGY AND EDUCATION",
+      "degree": "Information Technology",
+      "time": "2010 - 2014"
     },
     {
-      "keywords": ["skill", "kỹ năng"],
-      "answer": "Quốc có kinh nghiệm chuyên sâu với Angular & TypeScript. Các kỹ năng khác bao gồm Vue.js, Node.js, và React.js. Bạn có muốn xem chi tiết hơn không?"
-    },
-    {
-      "keywords": ["experience", "kinh nghiệm"],
-      "answer": "Quốc có hơn 7 năm kinh nghiệm làm việc, từng giữ các vị trí quan trọng tại Techcombank Securities và hiện tại là VELA. Để xem chi tiết, hãy gõ lệnh 'show --experience'."
-    },
-    {
-      "keywords": ["contact", "liên hệ", "email", "phone", "sdt", "số điện thoại"],
-      "answer": "Bạn có thể liên hệ với Quốc qua Email: tranphuquocit@gmail.com hoặc SĐT: 0559241292."
-    },
-    {
-      "keywords": [],
-      "answer": "Xin lỗi, tôi chưa được lập trình để hiểu câu hỏi này. Bạn có thể thử các từ khóa như 'kỹ năng', 'kinh nghiệm' để tôi có thể hỗ trợ tốt hơn."
+      "school": "NITT Education",
+      "degree": "Software Engineer",
+      "time": "2010 - 2013"
     }
+  ],
+  "projects": [
+    {
+      "name": "Vela web service",
+      "time": "05/2024 - 12/2024",
+      "role": "Frontend Developer",
+      "description": "Sản phẩm của công ty Vela, giúp khách hàng và doanh nghiệp quản lý hàng hóa, theo dõi trạng thái giao hàng và phương thức vận chuyển, đồng thời hỗ trợ thanh toán nhanh chóng. Dự án được phát triển bằng nhiều framework, với Angular là công nghệ frontend chính.",
+      "team_size": 12,
+      "technologies": ["Angular (Frontend)"]
+    },
+    {
+      "name": "TcInvest",
+      "time": "03/2021 - 09/2023",
+      "role": "Senior Frontend",
+      "description": "Nền tảng giao dịch chứng khoán do Techcom Securities (TCBS) phát triển, giúp khách hàng mua bán cổ phiếu. Trách nhiệm chính của tôi bao gồm sửa các lỗi giao diện nhỏ và triển khai các tính năng mới sau khi BA đã xác định sự cần thiết. Ngôn ngữ chính là Angular, ứng dụng được xây dựng bằng Ionic. Ngoài ra, tôi đã triển khai tính năng chat thời gian thực bằng Firebase để quản lý các từ khóa bị cấm.",
+      "team_size": 23,
+      "technologies": ["Angular (Frontend)", "Ionic", "Firebase"]
+    }
+  ],
+  "interests": [
+    "Đọc sách (Sách tâm trạng, sách phát triển cá nhân, sách tự cải thiện,...)",
+    "Thu âm Podcast",
+    "Học piano",
+    "Chơi bóng đá"
   ]
 }

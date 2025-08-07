@@ -20,10 +20,23 @@ app.use(express.json()); // Đọc được dữ liệu JSON từ request
 // 1. API để lấy toàn bộ dữ liệu CV
 // GET http://localhost:3000/api/cv
 app.get('/api/cv', (req, res) => {
-  const profile = db.get('profile').value();
-  const skills = db.get('skills').value();
-  const experience = db.get('experience').value();
-  res.json({ profile, skills, experience });
+    // Lấy tất cả các mục từ file db.json
+    const profile = db.get('profile').value();
+    const skills = db.get('skills').value();
+    const experience = db.get('experience').value();
+    const education = db.get('education').value();
+    const projects = db.get('projects').value();
+    const interests = db.get('interests').value();
+    
+    // Gộp tất cả vào một object và trả về
+    res.json({ 
+        profile, 
+        skills, 
+        experience,
+        education,
+        projects,
+        interests
+    });
 });
 
 // 2. API để xử lý chat
